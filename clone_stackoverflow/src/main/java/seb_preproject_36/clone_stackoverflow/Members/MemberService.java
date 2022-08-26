@@ -34,10 +34,10 @@ public class MemberService {
             if(password.equals(member.get().getPassword()))
                 return true;
             else
-                return false;
+                throw new Exception("Password is not correct");
         }
         else{
-            throw new Exception("Password is not correct");
+            throw new Exception("Email is not correct");
         }
     }
 }
