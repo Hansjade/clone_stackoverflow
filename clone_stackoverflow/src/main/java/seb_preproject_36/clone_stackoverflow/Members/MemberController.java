@@ -39,7 +39,7 @@ public class MemberController {
                 HttpStatus.CREATED);
     }
 
-    @GetMapping("/login")
+    @PostMapping("/login")
     public ResponseEntity login(@Valid @RequestBody MemberLoginDto memberLoginDto) throws Exception {
         String email=memberLoginDto.getEmail();
         String password= memberLoginDto.getPassword();
