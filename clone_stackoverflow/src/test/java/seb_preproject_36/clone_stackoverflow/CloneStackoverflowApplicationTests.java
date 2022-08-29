@@ -1,4 +1,4 @@
-package seb_39.pre_36.clone_stackoverflow;
+package seb_preproject_36.clone_stackoverflow;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
